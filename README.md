@@ -9,14 +9,19 @@ Integrasi **Large Language Models (LLMs)** dengan aplikasi memungkinkan pengguna
 <img src="https://img.shields.io/badge/IBM%20Cloud-%230489CE.svg?style=for-the-badge&logo=ibmcloud&logoColor=white">
 
 </div>
+===========================================================================
 
 # Ringkasan
 
 Kode ini menggunakan Watsonx.ai untuk menghasilkan poin-poin penting dari ulasan yang diberikan. Ini menggunakan model `google/flan-ul2` dan beberapa parameter untuk menghasilkan teks.
 
+===========================================================================
+
 # Prasyarat
 
 Sebelum menjalankan kode ini, Anda harus menginstal pustaka dan Anda juga harus memiliki kunci API IBM Cloud dan ID proyek. Anda dapat memperolehnya dengan membuat akun di IBM Cloud.
+
+===========================================================================
 
 # Bagaimana cara menjalankan kode
 
@@ -25,12 +30,17 @@ Sebelum menjalankan kode ini, Anda harus menginstal pustaka dan Anda juga harus 
 3. Masukkan ID proyek Anda dalam variabel `project_id`.
 4. Jalankan kode tersebut.
 
+===========================================================================
+
 # Output
 
 Kode tersebut akan mencetak poin-poin penting yang dihasilkan ke konsol. Poin-poin penting tersebut juga akan disimpan dalam variabel `response`.
 
+===========================================================================
 
 # Catatan
 
 * Anda dapat mengubah model dan parameter yang digunakan untuk menghasilkan teks dengan memodifikasi variabel `model_id` dan `parameters`.
 * Anda dapat mengubah input yang diberikan ke model dengan memodifikasi variabel `prompt_input`.
+
+===========================================================================
